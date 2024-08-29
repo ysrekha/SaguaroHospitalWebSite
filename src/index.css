@@ -1,0 +1,206 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+.bold-label {
+    font-weight: bold;
+}
+
+.form-background {
+    background-color: #e9edf1;
+    /* Light gray background color */
+    padding: 20px;
+    /* Optional: Adds padding inside the form */
+    border-radius: 5px;
+    /* Optional: Rounds the corners of the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds a subtle shadow around the form */
+    margin-bottom: 1rem;
+}
+
+.custom-h6 {
+    color: #893a02;
+}
+
+/* index.css */
+footer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    /* align-items: center; Center items horizontally */
+    padding: 1rem; /* Add padding around the footer */
+    background-color: #f1f1f1; /* Background color for the footer */
+    color: #333; /* Text color */
+}
+
+.footer-bottom-left {
+    font-weight: lighter; /* Light font weight */
+    text-align: left; /* Center text horizontally */
+}
+
+.footer-center {
+    margin-bottom: 1rem; /* Space between the left and center content */
+    text-align: center; /* Center text horizontally */
+}
+
+.contact-heading {
+    font-size: 1.5rem; /* Font size for h3 */
+    color: rgb(49, 144, 176); /* Font color */
+    margin: 0.5rem 0; /* Space above and below the heading */
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background: #ddd; /* Light gray line */
+    margin: 1rem 0;
+}
+
+footer p {
+    margin: 0.5rem 0; /* Space between lines */
+}
+
+
+.custom-light {
+    font-weight: lighter;
+}
+
+ul.custom-list li {
+    padding-left: 40px;
+    /* Adjust as needed */
+}
+
+ul.custom-list {
+    list-style-type: none;
+    /* Removes bullets */
+    padding: 0;
+    /* Optional: Removes default padding */
+    margin: 0;
+    /* Optional: Removes default margin */
+}
+
+.banner {
+    background-color: rgb(49, 144, 176); /* Background color */
+    color: white;
+    padding: 1rem; /* Adjust padding as needed */
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between items */
+    position: relative;
+}
+
+.banner img.savarologo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+}
+
+.banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin: 20px;
+    display: flex;
+    flex: 1; /* Take up all available space */
+    /* text-align: center; Center the heading horizontally */
+}
+
+.banner-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.banner-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; /* Adjust font size as needed */
+    border: 1px solid transparent; /* Border for hover effect */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.banner-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+    border-color: rgba(255, 255, 255, 0.5); /* Border color on hover */
+}
+
+ img.logo {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+    padding: 10px; /* Padding around the container */
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px; /* Card width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 120px; /* Image height */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.card-description {
+    padding: 10px;
+    font-size: 14px;
+}
+.home-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Optional: Background color for home page */
+}
+
+.pageHeader {
+    background-color: rgb(49, 144, 176);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+.my-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for text */
+    border-radius: 10px;
+}
+
+.my-carousel img {
+    object-fit: cover;
+    height: 450px; /* Adjust height as needed */
+}
+.center-text {
+    text-align: center;
+}
+.healthybg {
+    background-color: rgb(49, 144, 176);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+.custom-addnewbutton{
+    background-color:  rgb(49, 144, 176)
+}
+.custom-addnewbutton:hover {
+    background-color: rgb(39, 124, 155);
+}
+custom_updatebutton{
+    background-color:  rgb(49, 144, 176);
+}

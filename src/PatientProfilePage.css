@@ -1,0 +1,31 @@
+/* Styling for the profile container */
+.profile-container {
+    padding: 2rem;
+    background-color: #efebeb; /* Light gray background for the container */
+    min-height: auto; /* auto viewport height */
+    margin: 1rem;
+  }
+  
+  /* Styling for the profile header */
+  .profile-container h1 {
+    margin-bottom: 1.5rem; /* Space below the heading */
+    color: rgb(49, 144, 176); /* Consistent color with the banner and contact-heading */
+    font-size: 2rem; /* Adjust the font size to match the visual hierarchy */
+    font-family: 'Roboto', sans-serif; /* Match the font family used in the banner */
+  }
+  
+  /* Styling for the profile details section */
+  .profile-details {
+    background-color: #ffffff; /* White background for the details section */
+    padding: 1.5rem; /* Padding inside the details box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Styling for individual profile details paragraphs */
+  .profile-details p {
+    margin: 0.5rem 0; /* Space above and below each paragraph */
+    font-size: 1rem; /* Font size for readability */
+    color: #333; /* Dark gray text color for good contrast */
+  }
+  

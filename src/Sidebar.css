@@ -1,0 +1,61 @@
+/* Sidebar.css */
+.root-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0; /* Extend to bottom of viewport */
+  background-color: #893a02;
+  color: white;
+  padding: 1rem;
+  border-right: 1px solid #dee2e6;
+  z-index: 1000;
+  overflow-y: auto; /* Add vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+.card-container-sidebar {
+  margin-top: 20px; /* Space between nav items and cards */
+}
+
+.content {
+  margin-left: 250px;
+  padding: 1rem;
+  width: calc(100% - 250px);
+}
+
+.h1-spacing {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+.pageHeader {
+  background-color: rgb(49, 144, 176);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+      width: 100%;
+      height: auto; /* Let height adjust based on content on smaller screens */
+      position: static; /* Remove fixed positioning */
+      bottom: auto; /* Reset bottom property */
+  }
+
+  .content {
+      margin-left: 0;
+      width: 100%;
+  }
+}
+

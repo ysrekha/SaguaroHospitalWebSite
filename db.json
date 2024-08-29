@@ -1,0 +1,173 @@
+{
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Alice Smith",
+      "specialty": "Family Medicine",
+      "phone": "+1-555-123-4567",
+      "email": "alice.smith@clinic.com"
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Bob Johnson",
+      "specialty": "Pediatrician",
+      "phone": "+1-555-234-5678",
+      "email": "bob.johnson@clinic.com"
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Carol Davis",
+      "specialty": "Cardiologist",
+      "phone": "+1-555-345-6789",
+      "email": "carol.davis@clinic.com"
+    },
+    {
+      "id": "d4",
+      "name": "Dr. David Wilson",
+      "specialty": "Dermatologist",
+      "phone": "+1-555-456-7890",
+      "email": "david.wilson@clinic.com"
+    },
+    {
+      "id": "d5",
+      "name": "Dr. Emily Clark",
+      "specialty": "Orthopedic Surgeon",
+      "phone": "+1-555-567-8901",
+      "email": "emily.clark@clinic.com"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "name": "John Doe",
+      "dob": "1985-01-15",
+      "phone": "+1-555-678-1234",
+      "email": "john.doe@example.com",
+      "address": "123 Elm Street, Springfield, IL",
+      "doctor_id": "d1",
+      "reason_for_visit": "Fever",
+      "status": "Scheduled",
+      "password": "password9"
+    },
+    {
+      "id": "p2",
+      "name": "Jane Roe",
+      "dob": "1990-03-22",
+      "phone": "+1-555-789-2345",
+      "email": "jane.roe@example.com",
+      "address": "456 Oak Avenue, Springfield, IL",
+      "doctor_id": "d2",
+      "reason_for_visit": "WellnessCheck",
+      "status": "Cancelled",
+      "password": "password8"
+    },
+    {
+      "id": "p3",
+      "name": "Alice Johnson",
+      "dob": "1975-07-30",
+      "phone": "+1-555-890-3456",
+      "email": "alice.johnson@example.com",
+      "address": "789 Pine Road, Springfield, IL",
+      "doctor_id": "d3",
+      "reason_for_visit": "Chest Pain",
+      "status": "Scheduled",
+      "password": "password7"
+    },
+    {
+      "id": "p4",
+      "name": "Robert Brown",
+      "dob": "1965-05-10",
+      "phone": "+1-555-901-4567",
+      "email": "robert.brown@example.com",
+      "address": "321 Maple Street, Springfield, IL",
+      "doctor_id": "d4",
+      "reason_for_visit": "Rashes",
+      "status": "Completed",
+      "password": "password6"
+    },
+    {
+      "id": "p5",
+      "name": "Emily White",
+      "dob": "1988-09-25",
+      "phone": "+1-555-012-5678",
+      "email": "emily.white@example.com",
+      "address": "654 Cedar Lane, Springfield, IL",
+      "doctor_id": "d5",
+      "reason_for_visit": "Ankle Fracture",
+      "status": "Scheduled",
+      "password": "password5"
+    },
+    {
+      "id": "p6",
+      "name": "Michael Green",
+      "dob": "1995-12-05",
+      "phone": "+1-555-123-6789",
+      "email": "michael.green@example.com",
+      "address": "987 Birch Boulevard, Springfield, IL",
+      "doctor_id": "d1",
+      "reason_for_visit": "Allergies",
+      "status": "Scheduled",
+      "password": "password4"
+    },
+    {
+      "id": "p7",
+      "name": "Sarah Blue",
+      "dob": "2000-11-15",
+      "phone": "+1-555-234-7890",
+      "email": "sarah.blue@example.com",
+      "address": "123 Willow Street, Springfield, IL",
+      "doctor_id": "d2",
+      "reason_for_visit": "Sight issues",
+      "status": "Scheduled",
+      "password": "password3"
+    },
+    {
+      "id": "p8",
+      "name": "James Black",
+      "dob": "1982-04-20",
+      "phone": "+1-555-345-8901",
+      "email": "james.black@example.com",
+      "address": "456 Ash Avenue, Springfield, IL",
+      "doctor_id": "d3",
+      "reason_for_visit": "Low Heart Rate",
+      "status": "Completed",
+      "password": "password2"
+    },
+    {
+      "id": "1G_OpiA",
+      "name": "shashi",
+      "dob": "2024-03-07",
+      "phone": "222-333-1123",
+      "email": "bbc@bbc.com",
+      "address": "1234 sssss st, phoenix, AZ",
+      "doctor_id": "d1",
+      "reason_for_visit": "HeadAche",
+      "status": "Scheduled",
+      "password": "password1"
+    },
+    {
+      "id": "h-nSQRe",
+      "name": "rekha",
+      "dob": "2022-12-08",
+      "phone": "222-333-1126",
+      "email": "ccc@abc.com",
+      "address": "1234 Dance Ln, Completed Word, SpringField, IL",
+      "doctor_id": "d1",
+      "reason_for_visit": "Too Happy",
+      "status": "Scheduled",
+      "password": "password11"
+    },
+    {
+      "id": "dxJzSvv",
+      "name": "new",
+      "dob": "2024-07-30",
+      "phone": "666-444-3333",
+      "email": "ewr@huh.com",
+      "address": "dvdfv",
+      "doctor_id": "d2",
+      "reason_for_visit": "efe",
+      "status": "Completed",
+      "password": "passworde"
+    }
+  ]
+}
